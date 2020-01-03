@@ -1,3 +1,77 @@
+/* __containers */
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+/* __background-colors */
 .bg-dark {
 	background-color: #313131;
+}
+
+.bg-light {
+	background-color: #afafaf;
+}
+
+/* __text-colors */
+.text-dark {
+	color: #000;
+}
+
+.text-light {
+	color: #fff;
+}
+/* __text-positions */
+.text-center {
+	text-align: center;
+}
+/* __text-classes */
+.text-banner {
+	font-size: 3rem;
+}
+
+/* __fonts */
+.font-monospace {
+	font-family: monospace;
+}
+
+* {
+	font-size: 1rem;
+}
+
+/* __headings */
+h1 {
+	font-size: 1.7rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.4rem;
+}
+h4 {
+	font-size: 1.2rem;
+}
+h5 {
+	font-size: 1.1rem;
+}
+h6 {
+	font-size: 1rem;
+}
+
+/* __links */
+.link {
+	color: #07f;
+}
+
+.link:visited {
+	color: #f70;
+}
+
+.link:hover {
+	color: rgb(255, 15, 135);
+}
+
+.link:active {
+	color: #00f;
 }
